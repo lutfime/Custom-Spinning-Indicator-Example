@@ -18,6 +18,9 @@
 		C7B6FF67199B46EE00197C7F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B6FF46199B46ED00197C7F /* Cocoa.framework */; };
 		C7B6FF6F199B46EE00197C7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7B6FF6D199B46EE00197C7F /* InfoPlist.strings */; };
 		C7B6FF71199B46EE00197C7F /* Spinning_Indicator_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B6FF70199B46EE00197C7F /* Spinning_Indicator_ExampleTests.m */; };
+		C7B6FF7C199B46F900197C7F /* SpinningView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B6FF7B199B46F900197C7F /* SpinningView.m */; };
+		C7B6FF7E199B472500197C7F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B6FF7D199B472500197C7F /* QuartzCore.framework */; };
+		C7B6FF81199B47A600197C7F /* QuartzCodeCategoryOSX.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B6FF80199B47A600197C7F /* QuartzCodeCategoryOSX.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,11 @@
 		C7B6FF6C199B46EE00197C7F /* Spinning Indicator ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spinning Indicator ExampleTests-Info.plist"; sourceTree = "<group>"; };
 		C7B6FF6E199B46EE00197C7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7B6FF70199B46EE00197C7F /* Spinning_Indicator_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Spinning_Indicator_ExampleTests.m; sourceTree = "<group>"; };
+		C7B6FF7A199B46F900197C7F /* SpinningView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpinningView.h; sourceTree = "<group>"; };
+		C7B6FF7B199B46F900197C7F /* SpinningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpinningView.m; sourceTree = "<group>"; };
+		C7B6FF7D199B472500197C7F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C7B6FF7F199B47A600197C7F /* QuartzCodeCategoryOSX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzCodeCategoryOSX.h; sourceTree = "<group>"; };
+		C7B6FF80199B47A600197C7F /* QuartzCodeCategoryOSX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzCodeCategoryOSX.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7B6FF7E199B472500197C7F /* QuartzCore.framework in Frameworks */,
 				C7B6FF47199B46ED00197C7F /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +104,7 @@
 		C7B6FF45199B46ED00197C7F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C7B6FF7D199B472500197C7F /* QuartzCore.framework */,
 				C7B6FF46199B46ED00197C7F /* Cocoa.framework */,
 				C7B6FF65199B46EE00197C7F /* XCTest.framework */,
 				C7B6FF48199B46ED00197C7F /* Other Frameworks */,
@@ -117,9 +127,13 @@
 			children = (
 				C7B6FF58199B46ED00197C7F /* AppDelegate.h */,
 				C7B6FF59199B46ED00197C7F /* AppDelegate.m */,
+				C7B6FF7A199B46F900197C7F /* SpinningView.h */,
+				C7B6FF7B199B46F900197C7F /* SpinningView.m */,
 				C7B6FF5B199B46EE00197C7F /* MainMenu.xib */,
 				C7B6FF5E199B46EE00197C7F /* Images.xcassets */,
 				C7B6FF4D199B46ED00197C7F /* Supporting Files */,
+				C7B6FF7F199B47A600197C7F /* QuartzCodeCategoryOSX.h */,
+				C7B6FF80199B47A600197C7F /* QuartzCodeCategoryOSX.m */,
 			);
 			path = "Spinning Indicator Example";
 			sourceTree = "<group>";
@@ -252,7 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7B6FF81199B47A600197C7F /* QuartzCodeCategoryOSX.m in Sources */,
 				C7B6FF5A199B46ED00197C7F /* AppDelegate.m in Sources */,
+				C7B6FF7C199B46F900197C7F /* SpinningView.m in Sources */,
 				C7B6FF53199B46ED00197C7F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
