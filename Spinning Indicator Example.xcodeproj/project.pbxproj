@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7B6FF47199B46ED00197C7F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B6FF46199B46ED00197C7F /* Cocoa.framework */; };
+		C7B6FF51199B46ED00197C7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7B6FF4F199B46ED00197C7F /* InfoPlist.strings */; };
+		C7B6FF53199B46ED00197C7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B6FF52199B46ED00197C7F /* main.m */; };
+		C7B6FF57199B46ED00197C7F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C7B6FF55199B46ED00197C7F /* Credits.rtf */; };
+		C7B6FF5A199B46ED00197C7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B6FF59199B46ED00197C7F /* AppDelegate.m */; };
+		C7B6FF5D199B46EE00197C7F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7B6FF5B199B46EE00197C7F /* MainMenu.xib */; };
+		C7B6FF5F199B46EE00197C7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7B6FF5E199B46EE00197C7F /* Images.xcassets */; };
+		C7B6FF66199B46EE00197C7F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B6FF65199B46EE00197C7F /* XCTest.framework */; };
+		C7B6FF67199B46EE00197C7F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B6FF46199B46ED00197C7F /* Cocoa.framework */; };
+		C7B6FF6F199B46EE00197C7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7B6FF6D199B46EE00197C7F /* InfoPlist.strings */; };
+		C7B6FF71199B46EE00197C7F /* Spinning_Indicator_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B6FF70199B46EE00197C7F /* Spinning_Indicator_ExampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7B6FF68199B46EE00197C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7B6FF3B199B46ED00197C7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7B6FF42199B46ED00197C7F;
+			remoteInfo = "Spinning Indicator Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7B6FF43199B46ED00197C7F /* Spinning Indicator Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spinning Indicator Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B6FF46199B46ED00197C7F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C7B6FF49199B46ED00197C7F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C7B6FF4A199B46ED00197C7F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C7B6FF4B199B46ED00197C7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C7B6FF4E199B46ED00197C7F /* Spinning Indicator Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spinning Indicator Example-Info.plist"; sourceTree = "<group>"; };
+		C7B6FF50199B46ED00197C7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7B6FF52199B46ED00197C7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7B6FF54199B46ED00197C7F /* Spinning Indicator Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spinning Indicator Example-Prefix.pch"; sourceTree = "<group>"; };
+		C7B6FF56199B46ED00197C7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C7B6FF58199B46ED00197C7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7B6FF59199B46ED00197C7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7B6FF5C199B46EE00197C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C7B6FF5E199B46EE00197C7F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C7B6FF64199B46EE00197C7F /* Spinning Indicator ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spinning Indicator ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B6FF65199B46EE00197C7F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C7B6FF6C199B46EE00197C7F /* Spinning Indicator ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spinning Indicator ExampleTests-Info.plist"; sourceTree = "<group>"; };
+		C7B6FF6E199B46EE00197C7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7B6FF70199B46EE00197C7F /* Spinning_Indicator_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Spinning_Indicator_ExampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7B6FF40199B46ED00197C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B6FF47199B46ED00197C7F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B6FF61199B46EE00197C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B6FF67199B46EE00197C7F /* Cocoa.framework in Frameworks */,
+				C7B6FF66199B46EE00197C7F /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7B6FF3A199B46ED00197C7F = {
+			isa = PBXGroup;
+			children = (
+				C7B6FF4C199B46ED00197C7F /* Spinning Indicator Example */,
+				C7B6FF6A199B46EE00197C7F /* Spinning Indicator ExampleTests */,
+				C7B6FF45199B46ED00197C7F /* Frameworks */,
+				C7B6FF44199B46ED00197C7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7B6FF44199B46ED00197C7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7B6FF43199B46ED00197C7F /* Spinning Indicator Example.app */,
+				C7B6FF64199B46EE00197C7F /* Spinning Indicator ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7B6FF45199B46ED00197C7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7B6FF46199B46ED00197C7F /* Cocoa.framework */,
+				C7B6FF65199B46EE00197C7F /* XCTest.framework */,
+				C7B6FF48199B46ED00197C7F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7B6FF48199B46ED00197C7F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7B6FF49199B46ED00197C7F /* AppKit.framework */,
+				C7B6FF4A199B46ED00197C7F /* CoreData.framework */,
+				C7B6FF4B199B46ED00197C7F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C7B6FF4C199B46ED00197C7F /* Spinning Indicator Example */ = {
+			isa = PBXGroup;
+			children = (
+				C7B6FF58199B46ED00197C7F /* AppDelegate.h */,
+				C7B6FF59199B46ED00197C7F /* AppDelegate.m */,
+				C7B6FF5B199B46EE00197C7F /* MainMenu.xib */,
+				C7B6FF5E199B46EE00197C7F /* Images.xcassets */,
+				C7B6FF4D199B46ED00197C7F /* Supporting Files */,
+			);
+			path = "Spinning Indicator Example";
+			sourceTree = "<group>";
+		};
+		C7B6FF4D199B46ED00197C7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7B6FF4E199B46ED00197C7F /* Spinning Indicator Example-Info.plist */,
+				C7B6FF4F199B46ED00197C7F /* InfoPlist.strings */,
+				C7B6FF52199B46ED00197C7F /* main.m */,
+				C7B6FF54199B46ED00197C7F /* Spinning Indicator Example-Prefix.pch */,
+				C7B6FF55199B46ED00197C7F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7B6FF6A199B46EE00197C7F /* Spinning Indicator ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7B6FF70199B46EE00197C7F /* Spinning_Indicator_ExampleTests.m */,
+				C7B6FF6B199B46EE00197C7F /* Supporting Files */,
+			);
+			path = "Spinning Indicator ExampleTests";
+			sourceTree = "<group>";
+		};
+		C7B6FF6B199B46EE00197C7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7B6FF6C199B46EE00197C7F /* Spinning Indicator ExampleTests-Info.plist */,
+				C7B6FF6D199B46EE00197C7F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7B6FF42199B46ED00197C7F /* Spinning Indicator Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B6FF74199B46EE00197C7F /* Build configuration list for PBXNativeTarget "Spinning Indicator Example" */;
+			buildPhases = (
+				C7B6FF3F199B46ED00197C7F /* Sources */,
+				C7B6FF40199B46ED00197C7F /* Frameworks */,
+				C7B6FF41199B46ED00197C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spinning Indicator Example";
+			productName = "Spinning Indicator Example";
+			productReference = C7B6FF43199B46ED00197C7F /* Spinning Indicator Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7B6FF63199B46EE00197C7F /* Spinning Indicator ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B6FF77199B46EE00197C7F /* Build configuration list for PBXNativeTarget "Spinning Indicator ExampleTests" */;
+			buildPhases = (
+				C7B6FF60199B46EE00197C7F /* Sources */,
+				C7B6FF61199B46EE00197C7F /* Frameworks */,
+				C7B6FF62199B46EE00197C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7B6FF69199B46EE00197C7F /* PBXTargetDependency */,
+			);
+			name = "Spinning Indicator ExampleTests";
+			productName = "Spinning Indicator ExampleTests";
+			productReference = C7B6FF64199B46EE00197C7F /* Spinning Indicator ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7B6FF3B199B46ED00197C7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = bijokmind;
+				TargetAttributes = {
+					C7B6FF63199B46EE00197C7F = {
+						TestTargetID = C7B6FF42199B46ED00197C7F;
+					};
+				};
+			};
+			buildConfigurationList = C7B6FF3E199B46ED00197C7F /* Build configuration list for PBXProject "Spinning Indicator Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7B6FF3A199B46ED00197C7F;
+			productRefGroup = C7B6FF44199B46ED00197C7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7B6FF42199B46ED00197C7F /* Spinning Indicator Example */,
+				C7B6FF63199B46EE00197C7F /* Spinning Indicator ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7B6FF41199B46ED00197C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B6FF51199B46ED00197C7F /* InfoPlist.strings in Resources */,
+				C7B6FF5F199B46EE00197C7F /* Images.xcassets in Resources */,
+				C7B6FF57199B46ED00197C7F /* Credits.rtf in Resources */,
+				C7B6FF5D199B46EE00197C7F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B6FF62199B46EE00197C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B6FF6F199B46EE00197C7F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7B6FF3F199B46ED00197C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B6FF5A199B46ED00197C7F /* AppDelegate.m in Sources */,
+				C7B6FF53199B46ED00197C7F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B6FF60199B46EE00197C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B6FF71199B46EE00197C7F /* Spinning_Indicator_ExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7B6FF69199B46EE00197C7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7B6FF42199B46ED00197C7F /* Spinning Indicator Example */;
+			targetProxy = C7B6FF68199B46EE00197C7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7B6FF4F199B46ED00197C7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7B6FF50199B46ED00197C7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C7B6FF55199B46ED00197C7F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7B6FF56199B46ED00197C7F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C7B6FF5B199B46EE00197C7F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7B6FF5C199B46EE00197C7F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C7B6FF6D199B46EE00197C7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7B6FF6E199B46EE00197C7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7B6FF72199B46EE00197C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C7B6FF73199B46EE00197C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C7B6FF75199B46EE00197C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spinning Indicator Example/Spinning Indicator Example-Prefix.pch";
+				INFOPLIST_FILE = "Spinning Indicator Example/Spinning Indicator Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C7B6FF76199B46EE00197C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spinning Indicator Example/Spinning Indicator Example-Prefix.pch";
+				INFOPLIST_FILE = "Spinning Indicator Example/Spinning Indicator Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C7B6FF78199B46EE00197C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Spinning Indicator Example.app/Contents/MacOS/Spinning Indicator Example";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spinning Indicator Example/Spinning Indicator Example-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Spinning Indicator ExampleTests/Spinning Indicator ExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C7B6FF79199B46EE00197C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Spinning Indicator Example.app/Contents/MacOS/Spinning Indicator Example";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spinning Indicator Example/Spinning Indicator Example-Prefix.pch";
+				INFOPLIST_FILE = "Spinning Indicator ExampleTests/Spinning Indicator ExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7B6FF3E199B46ED00197C7F /* Build configuration list for PBXProject "Spinning Indicator Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B6FF72199B46EE00197C7F /* Debug */,
+				C7B6FF73199B46EE00197C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B6FF74199B46EE00197C7F /* Build configuration list for PBXNativeTarget "Spinning Indicator Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B6FF75199B46EE00197C7F /* Debug */,
+				C7B6FF76199B46EE00197C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7B6FF77199B46EE00197C7F /* Build configuration list for PBXNativeTarget "Spinning Indicator ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B6FF78199B46EE00197C7F /* Debug */,
+				C7B6FF79199B46EE00197C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7B6FF3B199B46ED00197C7F /* Project object */;
+}
