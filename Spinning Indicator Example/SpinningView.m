@@ -271,7 +271,7 @@
 	[slice5GradientAnim.animations setValue:@(1.2) forKeyPath:@"duration"];
 	[slice5GradientAnim.animations setValue:@(INFINITY) forKeyPath:@"repeatCount"];
 	slice5GradientAnim.duration = [self maxDurationFromAnimations:slice5GradientAnim.animations];
-	
+	 
 	return slice5GradientAnim;
 }
 
